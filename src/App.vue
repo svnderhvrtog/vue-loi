@@ -1,29 +1,27 @@
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="Dit is m'n eerste vue app" />
-      <HelloWorld name="Van: Sander" />
-    </div>
+    <img alt="Vue logo" class="logo" src="./assets/Logo1.png" width="125" height="125" />
+    <h1>Opzet van Webapplicatie voor RealEstateCare</h1>
   </header>
 
   <main>
-    <HelloWorld />
-    <CustomerList/>
-    <Visitors visitor1="Jan" visitor2="Piet"/>
+    <ToegewezenRapportages />
+    <UitgevoerdeRapportages />
+    <Kennisbase />
+    <Instellingen />
   </main>
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import CustomerList from './components/CustomerList.vue'
-import Visitors from './components/Visitors.vue'
+import ToegewezenRapportages from './components/ToegewezenRapportages.vue'
+import UitgevoerdeRapportages from './components/UitgevoerdeRapportages.vue'
+import Kennisbase from './components/Kennisbase.vue'
+import Instellingen from './components/Instellingen.vue'
 </script>
 
 <style scoped>
 header {
-  line-height: 1.5;
+  padding-top: 5%;
 }
 
 .logo {
@@ -35,7 +33,6 @@ header {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
@@ -46,6 +43,10 @@ header {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+  }
+
+  main {
+    display: block;
   }
 }
 </style>

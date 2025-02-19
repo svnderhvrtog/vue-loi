@@ -1,11 +1,10 @@
 <template>
     <div>
-        <h2>Onze klanten zijn:</h2>
+        <h2>Example:</h2>
         <ul>
-            <li>Ziggo</li>
-            <li>ANWB</li>
-            <li>Monk</li>
-            <li>Google</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
         </ul>
     </div>
 </template>
