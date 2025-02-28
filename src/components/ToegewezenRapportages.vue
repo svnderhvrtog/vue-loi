@@ -2,8 +2,8 @@
 
 </template>
 
-<style>
+<script>
     export default {
         name: 'ToegewezenRapportages'
     }
-</style>
+</script>
