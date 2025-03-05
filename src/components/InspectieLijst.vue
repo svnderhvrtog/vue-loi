@@ -4,7 +4,7 @@
         <v-col v-for="(inspection, index) in sortedInspections" :key="inspection.id">
           <v-sheet :elevation="2" class="item-spacing" @click="showInspectionDetails(inspection)">
             <v-icon size="64" class="icon-spacing">
-              {{ inspection.type === 'Schade' ? 'mdi-bug' : 'mdi-wrench' }}
+              {{ inspection.type === 'Schade' ? 'mdi-bug-outline' : 'mdi-wrench-outline' }}
             </v-icon>
             <div class="fixed-width">
               <div class="spacing">{{ inspection.date }}</div>
@@ -91,7 +91,7 @@
     display: flex;
     gap: 24px;
     align-items: center;
-    padding: 40px;
+    padding: 32px;
     cursor: pointer;
 }
 
@@ -100,7 +100,7 @@
     flex-direction: column;
     gap: 8px;
     align-items: flex-start;
-    padding-inline: 48px;
+    padding-inline: 40px;
     padding-block: 24px;
     cursor: pointer;
 }
@@ -110,7 +110,8 @@
 }
 
 .fixed-width {
-    width: 160px;
+    min-width: 100px;
+    max-width: 100px;
 }
 
 .spacing {

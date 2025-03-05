@@ -36,7 +36,7 @@
 .item-spacing {
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding: 32px;
 }
 
 .icon-spacing {
