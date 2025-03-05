@@ -9,9 +9,23 @@
         </v-col>
       </v-row>
     </v-container>
+    <v-container fluid class="container-spacing">
+    <v-row class="grid-layout">
+      <v-col v-for="(inspection, index) in inspections" :key="inspection.id">
+        <v-sheet :elevation="2" class="item-spacing">
+          <v-icon size="64" class="icon-spacing">{{ inspection.type === 'Damage' ? 'mdi-bug' : 'mdi-wrench' }}</v-icon>
+          <div>{{ inspection.date }} - {{ inspection.location }}</div>
+          <div>{{ inspection.description }}</div>
+          <div v-if="inspection.urgent">Urgent</div>
+        </v-sheet>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
   
 <script>
+  import { getInspections } from '@/services/inspectionService.js';
+
   export default {
     name: 'Home',
     data() {
@@ -21,9 +35,15 @@
           { name: 'Uitgevoerde rapportages openen', icon: 'mdi-check-decagram-outline' },
           { name: 'Kennisbase/documentatie', icon: 'mdi-text-box-outline' },
           { name: 'Instellingen', icon: 'mdi-cog-outline' },
-        ]
+        ],
+        inspections: []  // Dit is waar we de inspecties gaan opslaan
       };
-    }
+    },
+    async created() {
+    // Wanneer de component wordt geladen, halen we de inspecties op
+    const data = await getInspections();
+    this.inspections = data;  // Sla de inspecties op in de data van de component
+  }
   };
 </script>
   

@@ -15,4 +15,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  server: {
+    proxy: {
+      '/api': 'https://my-json-server.typicode.com/svnderhvrtog/vue-loi',  // Proxy setup
+    }
+  }
 })
+

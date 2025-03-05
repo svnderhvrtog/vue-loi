@@ -1,23 +1,24 @@
-[
-    {
-      "id": 1,
-      "date": "2025-03-05",
-      "location": "Bergstraat 12, Utrecht",
-      "type": "Damage",
-      "description": "Broken window due to storm",
-      "urgent": true,
-      "photos": ["photo.jpg"]
-    },
-    {
-      "id": 2,
-      "date": "2025-03-04",
-      "location": "Hoofdweg 45, Amsterdam",
-      "type": "Maintenance",
-      "description": "Peeling paint on exterior walls",
-      "urgent": false,
-      "photos": []
-    },
-    {
+{
+    "inspections": [
+      {
+        "id": 1,
+        "date": "2025-03-05",
+        "location": "Bergstraat 12, Utrecht",
+        "type": "Damage",
+        "description": "Broken window due to storm",
+        "urgent": true,
+        "photos": ["photo.jpg"]
+      },
+      {
+        "id": 2,
+        "date": "2025-03-04",
+        "location": "Hoofdweg 45, Amsterdam",
+        "type": "Maintenance",
+        "description": "Peeling paint on exterior walls",
+        "urgent": false,
+        "photos": []
+      },
+      {
         "id": 3,
         "date": "2025-03-04",
         "location": "Parallelweg 9, Gouda",
@@ -25,8 +26,8 @@
         "description": "Wash basin is broken",
         "urgent": true,
         "photos": ["photo.jpg", "photo.jpg"]
-    },
-    {
+      },
+      {
         "id": 4,
         "date": "2025-03-03",
         "location": "Dorpsstraat 77b, Leeuwarden",
@@ -34,8 +35,8 @@
         "description": "Doorlock has been forced",
         "urgent": true,
         "photos": []
-    },
-    {
+      },
+      {
         "id": 5,
         "date": "2025-03-02",
         "location": "Julianastraat 2, Eindhoven",
@@ -43,6 +44,7 @@
         "description": "Entry needs new tiling",
         "urgent": false,
         "photos": []
-    }
-  ]
+      }
+    ]
+  }
   
