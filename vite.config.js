@@ -17,7 +17,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/api': 'https://my-json-server.typicode.com/svnderhvrtog/vue-loi',  // Proxy setup
+      '/api': 'https://my-json-server.typicode.com/svnderhvrtog/vue-loi/inspections',  // Proxy setup
     }
   }
 })

@@ -4,17 +4,17 @@
         "id": 1,
         "date": "2025-03-05",
         "location": "Bergstraat 12, Utrecht",
-        "type": "Damage",
-        "description": "Broken window due to storm",
+        "type": "Schade",
+        "description": "Raam is gebroken door storm",
         "urgent": true,
         "photos": ["photo.jpg"]
       },
       {
         "id": 2,
-        "date": "2025-03-04",
+        "date": "2025-03-06",
         "location": "Hoofdweg 45, Amsterdam",
-        "type": "Maintenance",
-        "description": "Peeling paint on exterior walls",
+        "type": "Onderhoud",
+        "description": "Verf bladerd aan buitenmuur",
         "urgent": false,
         "photos": []
       },
@@ -22,17 +22,17 @@
         "id": 3,
         "date": "2025-03-04",
         "location": "Parallelweg 9, Gouda",
-        "type": "Damage",
-        "description": "Wash basin is broken",
+        "type": "Schade",
+        "description": "Wastafel is kapot",
         "urgent": true,
         "photos": ["photo.jpg", "photo.jpg"]
       },
       {
         "id": 4,
-        "date": "2025-03-03",
+        "date": "2025-03-07",
         "location": "Dorpsstraat 77b, Leeuwarden",
-        "type": "Damage",
-        "description": "Doorlock has been forced",
+        "type": "Schade",
+        "description": "Slot is geforceerd",
         "urgent": true,
         "photos": []
       },
@@ -40,8 +40,8 @@
         "id": 5,
         "date": "2025-03-02",
         "location": "Julianastraat 2, Eindhoven",
-        "type": "Maintenance",
-        "description": "Entry needs new tiling",
+        "type": "Onderhoud",
+        "description": "Ingang heeft nieuwe tegels nodig",
         "urgent": false,
         "photos": []
       }

@@ -2,6 +2,7 @@
   <v-app>
     <HeaderBar />
     <Home />
+    <InspectieLijst />
     <TabBar />
   </v-app>
 </template>
@@ -16,12 +17,14 @@ import ToegewezenRapportages from '@/components/ToegewezenRapportages.vue';
 import UitgevoerdeRapportages from '@/components/UitgevoerdeRapportages.vue';
 import Kennisbase from '@/components/Kennisbase.vue';
 import Instellingen from '@/components/Instellingen.vue';
+import InspectieLijst from '@/components/InspectieLijst.vue';
 
 export default {
   components: {
     HeaderBar,
     TabBar,
     Home,
+    InspectieLijst,
     ToegewezenRapportages,
     UitgevoerdeRapportages,
     Kennisbase,
