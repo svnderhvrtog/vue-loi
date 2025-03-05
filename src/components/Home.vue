@@ -1,6 +1,6 @@
 <template>
     <v-container fluid class="container-spacing">
-      <v-row>
+      <v-row class="grid-layout">
         <v-col v-for="(item, index) in items" :key="index">
           <v-sheet :elevation="2" class="item-spacing">
             <v-icon size="64" class="icon-spacing">{{ item.icon }}</v-icon>
@@ -29,9 +29,18 @@
   
 <style scoped>
 .container-spacing {
-    height: calc(100vh - 120px);
-    padding-top: 60px; 
-    padding-bottom: 60px;
+    height: calc(100vh - 54px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  width: 100%;
 }
 
 .item-spacing {
