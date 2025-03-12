@@ -12,29 +12,29 @@
         name: 'HeaderBar',
         data() {
             return {
-                urlLogo: './src/assets/Logo1.png',
-                urlLogoRight: './src/assets/Logo5.png'
+                urlLogo: './src/assets/logo-graphic.png',
+                urlLogoRight: './src/assets/logo-company-text.png'
             }
         },
     }
 </script>
 
 <style scoped>
-.logo-flexbox {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding-inline: 36px;
-}
+    .logo-flexbox {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-inline: 36px;
+    }
 
-.logo-header-left{
-    width: 34px;
-    height: 34px;
-}
+    .logo-header-left{
+        width: 34px;
+        height: 34px;
+    }
 
-.logo-header-right{
-    margin-top: 2px;
-    width: 124px;
-    height: 34px;
-}
+    .logo-header-right{
+        margin-top: 2px;
+        width: 124px;
+        height: 34px;
+    }
 </style>

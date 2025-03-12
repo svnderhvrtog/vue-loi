@@ -1,37 +1,21 @@
 <template>
   <v-app>
     <HeaderBar />
-    <Home />
-    <InspectieLijst />
+    <router-view />
     <TabBar />
   </v-app>
 </template>
 
 <script>
-import 'vuetify/styles';
-import '@mdi/font/css/materialdesignicons.css';
-import HeaderBar from '@/shared/HeaderBar.vue';
-import TabBar from '@/shared/TabBar.vue';
-import Home from '@/components/Home.vue';
-import ToegewezenRapportages from '@/components/ToegewezenRapportages.vue';
-import UitgevoerdeRapportages from '@/components/UitgevoerdeRapportages.vue';
-import Kennisbase from '@/components/Kennisbase.vue';
-import Instellingen from '@/components/Instellingen.vue';
-import InspectieLijst from '@/components/InspectieLijst.vue';
+  import 'vuetify/styles';
+  import '@mdi/font/css/materialdesignicons.css';
+  import HeaderBar from '@/shared/HeaderBar.vue';
+  import TabBar from '@/shared/TabBar.vue';
 
-export default {
-  components: {
-    HeaderBar,
-    TabBar,
-    Home,
-    InspectieLijst,
-    ToegewezenRapportages,
-    UitgevoerdeRapportages,
-    Kennisbase,
-    Instellingen
-  }
-};
+  export default {
+    components: {
+      HeaderBar,
+      TabBar,
+    }
+  };
 </script>
-
-<style scoped>
-</style>

@@ -11,3 +11,13 @@ export const getInspections = async () => {
     return [];
   }
 };
+
+export const submitInspection = async (inspectionData) => {
+  try {
+    const response = await axios.post(API_URL, inspectionData);
+    return response.data;
+  } catch (error) {
+    console.error("Er is een fout opgetreden bij het verzenden van de inspectie:", error);
+    throw error;
+  }
+};
