@@ -1,50 +1,160 @@
 {
-    "inspections": [
-      {
-        "id": 1,
-        "date": "2025-03-05",
-        "location": "Bergstraat 12, Utrecht",
-        "type": "Schade",
-        "description": "Raam is gebroken door storm",
-        "urgent": true,
-        "photos": ["photo.jpg"]
+  "inspections": [
+    {
+      "id": "c9e7",
+      "selectedOptions": {
+        "schadeOpnemen": true,
+        "achterstalligOnderhoud": false,
+        "technischeInstallaties": false,
+        "modificatiesInventariseren": false
       },
-      {
-        "id": 2,
-        "date": "2025-03-06",
-        "location": "Hoofdweg 45, Amsterdam",
-        "type": "Onderhoud",
-        "description": "Verf bladerd aan buitenmuur",
-        "urgent": false,
-        "photos": []
+      "damageData": {
+        "damageLocation": "Den Haag",
+        "damageType": "calamiteit",
+        "damageDate": "2025-03-09T23:00:00.000Z",
+        "damageAcuteActionRequired": "nee",
+        "damageDescription": "Test"
       },
-      {
-        "id": 3,
-        "date": "2025-03-04",
-        "location": "Parallelweg 9, Gouda",
-        "type": "Schade",
-        "description": "Wastafel is kapot",
-        "urgent": true,
-        "photos": ["photo.jpg", "photo.jpg"]
+      "onderhoudData": {
+        "maintenanceLocation": "",
+        "maintenanceType": "",
+        "maintenanceAcuteActionRequired": "",
+        "maintenanceCostEstimate": ""
       },
-      {
-        "id": 4,
-        "date": "2025-03-07",
-        "location": "Dorpsstraat 77b, Leeuwarden",
-        "type": "Schade",
-        "description": "Slot is geforceerd",
-        "urgent": true,
-        "photos": []
+      "installatiesData": {
+        "technicalInstallationlocation": "",
+        "technicalInstallationType": "",
+        "technicalInstallationReportedIssues": "",
+        "technicalInstallationTestprocedure": null,
+        "technicalInstallationApproved": "",
+        "technicalInstallationComments": ""
       },
-      {
-        "id": 5,
-        "date": "2025-03-02",
-        "location": "Julianastraat 2, Eindhoven",
-        "type": "Onderhoud",
-        "description": "Ingang heeft nieuwe tegels nodig",
-        "urgent": false,
-        "photos": []
-      }
-    ]
-  }
-  
+      "modificatiesData": {
+        "modificationExistingSituation": null,
+        "modificationLocation": "",
+        "modificationModifiedBy": "",
+        "modificationDescription": "",
+        "modificationActionRequired": "",
+        "modificationComments": ""
+      },
+      "photo": null
+    },
+    {
+      "id": "3937",
+      "selectedOptions": {
+        "schadeOpnemen": false,
+        "achterstalligOnderhoud": false,
+        "technischeInstallaties": false,
+        "modificatiesInventariseren": true
+      },
+      "damageData": {
+        "damageLocation": "",
+        "damageType": "",
+        "damageDate": "",
+        "damageAcuteActionRequired": "",
+        "damageDescription": ""
+      },
+      "maintenanceData": {
+        "maintenanceLocation": "",
+        "maintenanceType": "",
+        "maintenanceAcuteActionRequired": "",
+        "maintenanceCostEstimate": ""
+      },
+      "installatiesData": {
+        "technicalInstallationlocation": "",
+        "technicalInstallationType": "",
+        "technicalInstallationReportedIssues": "",
+        "technicalInstallationTestprocedure": null,
+        "technicalInstallationApproved": "",
+        "technicalInstallationComments": ""
+      },
+      "modificationsData": {
+        "modificationExistingSituation": null,
+        "modificationLocation": "Rotterdam",
+        "modificationModifiedBy": "aannemer",
+        "modificationDescription": "Uitbouw",
+        "modificationActionRequired": "accepteren",
+        "modificationComments": "-"
+      },
+      "photo": null
+    },
+    {
+      "id": "4f5f",
+      "selectedOptions": {
+        "schadeOpnemen": false,
+        "achterstalligOnderhoud": true,
+        "technischeInstallaties": false,
+        "modificatiesInventariseren": false
+      },
+      "damageData": {
+        "damageLocation": "",
+        "damageType": "",
+        "damageDate": "",
+        "damageAcuteActionRequired": "",
+        "damageDescription": ""
+      },
+      "maintenanceData": {
+        "maintenanceLocation": "Vlaardingen",
+        "maintenanceType": "schilderwerk",
+        "maintenanceAcuteActionRequired": "nee",
+        "maintenanceCostEstimate": "1500+"
+      },
+      "installatiesData": {
+        "technicalInstallationlocation": "",
+        "technicalInstallationType": "",
+        "technicalInstallationReportedIssues": "",
+        "technicalInstallationTestprocedure": null,
+        "technicalInstallationApproved": "",
+        "technicalInstallationComments": ""
+      },
+      "modificationsData": {
+        "modificationExistingSituation": null,
+        "modificationLocation": "",
+        "modificationModifiedBy": "",
+        "modificationDescription": "",
+        "modificationActionRequired": "",
+        "modificationComments": ""
+      },
+      "photo": null
+    },
+    {
+      "id": "a824",
+      "selectedOptions": {
+        "schadeOpnemen": false,
+        "achterstalligOnderhoud": false,
+        "technischeInstallaties": true,
+        "modificatiesInventariseren": false
+      },
+      "damageData": {
+        "damageLocation": "",
+        "damageType": "",
+        "damageDate": "",
+        "damageAcuteActionRequired": "",
+        "damageDescription": ""
+      },
+      "maintenanceData": {
+        "maintenanceLocation": "",
+        "maintenanceType": "",
+        "maintenanceAcuteActionRequired": "",
+        "maintenanceCostEstimate": ""
+      },
+      "installationData": {
+        "technicalInstallationlocation": "Gouda",
+        "technicalInstallationType": "verwarming",
+        "technicalInstallationReportedIssues": "Verwarming werkt niet",
+        "technicalInstallationTestprocedure": {},
+        "technicalInstallationApproved": "nee",
+        "technicalInstallationComments": "Zelf voor reparatie zorgen"
+      },
+      "modificationsData": {
+        "modificationExistingSituation": null,
+        "modificationLocation": "",
+        "modificationModifiedBy": "",
+        "modificationDescription": "",
+        "modificationActionRequired": "",
+        "modificationComments": ""
+      },
+      "photo": null
+    }
+  ]
+}
