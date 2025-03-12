@@ -15,13 +15,13 @@
         "damageAcuteActionRequired": "nee",
         "damageDescription": "Test"
       },
-      "onderhoudData": {
+      "maintenanceData": {
         "maintenanceLocation": "",
         "maintenanceType": "",
         "maintenanceAcuteActionRequired": "",
         "maintenanceCostEstimate": ""
       },
-      "installatiesData": {
+      "installationData": {
         "technicalInstallationlocation": "",
         "technicalInstallationType": "",
         "technicalInstallationReportedIssues": "",
@@ -60,7 +60,7 @@
         "maintenanceAcuteActionRequired": "",
         "maintenanceCostEstimate": ""
       },
-      "installatiesData": {
+      "installationData": {
         "technicalInstallationlocation": "",
         "technicalInstallationType": "",
         "technicalInstallationReportedIssues": "",
@@ -99,7 +99,7 @@
         "maintenanceAcuteActionRequired": "nee",
         "maintenanceCostEstimate": "1500+"
       },
-      "installatiesData": {
+      "installationData": {
         "technicalInstallationlocation": "",
         "technicalInstallationType": "",
         "technicalInstallationReportedIssues": "",
