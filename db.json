@@ -9,11 +9,11 @@
         "modificatiesInventariseren": false
       },
       "damageData": {
-        "damageLocation": "Den Haag",
+        "damageLocation": "Den Haag, Parallelweg 77",
         "damageType": "calamiteit",
         "damageDate": "2025-03-09T23:00:00.000Z",
         "damageAcuteActionRequired": "nee",
-        "damageDescription": "Test"
+        "damageDescription": "Storm heeft schade aangericht aan de voorgevel"
       },
       "maintenanceData": {
         "maintenanceLocation": "",
@@ -70,11 +70,11 @@
       },
       "modificationsData": {
         "modificationExistingSituation": null,
-        "modificationLocation": "Rotterdam",
+        "modificationLocation": "Rotterdam, Kerkweg 9-A",
         "modificationModifiedBy": "aannemer",
         "modificationDescription": "Uitbouw",
         "modificationActionRequired": "accepteren",
-        "modificationComments": "-"
+        "modificationComments": "Dakkapel aan de oost-zijde van de woning"
       },
       "photo": null
     },
@@ -141,7 +141,7 @@
       "installationData": {
         "technicalInstallationlocation": "Gouda",
         "technicalInstallationType": "verwarming",
-        "technicalInstallationReportedIssues": "Verwarming werkt niet",
+        "technicalInstallationReportedIssues": "Verwarming werkt niet naar toebehoren",
         "technicalInstallationTestprocedure": {},
         "technicalInstallationApproved": "nee",
         "technicalInstallationComments": "Zelf voor reparatie zorgen"
